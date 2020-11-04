@@ -1,0 +1,85 @@
+.li-list-item {
+    box-shadow: 0px 0px 5px 1px rgba(211,211,211,1);
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    font-size: 18px;
+
+}
+
+.li-item-checkbox {
+    margin: 0 15px 0 0;
+    
+}
+
+.list-item-completed {
+    text-decoration: line-through;
+    opacity: .5;
+    background-color: rgb(238, 238, 238);
+}
+
+.list-btn {
+    padding: 10px;
+    width: 50px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn-delete-item {
+    background-color: red;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: .3s;
+}
+
+.btn-delete-item:hover {
+    background-color: #fff;
+    color: red;
+    border: 1px solid red;
+    transition: .3s;
+}
+
+.btn-completed {
+    background-color: #49ad5c;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: .3s;
+}
+
+.btn-completed:hover {
+    background-color: #fff;
+    color:  #49ad5c;
+    border: 1px solid #49ad5c;
+    transition: .3s;
+}
+
+.btn-uncompleted {
+    background-color: rgb(67, 113, 253);
+    color: #fff;
+    border: 1px solid #fff;
+    transition: .3s;
+}
+
+.btn-uncompleted:hover {
+    background-color: #fff;
+    color:  rgb(67, 113, 253);
+    border: 1px solid rgb(67, 113, 253);
+    transition: .3s;
+}
+
+h2 {
+    text-align: center;
+}
+
+.li-list-item:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px 1px rgba(211,211,211,1);
+    background-color: rgb(238, 238, 238);
+}
